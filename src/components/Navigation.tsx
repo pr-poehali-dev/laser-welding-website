@@ -45,7 +45,7 @@ const Navigation = () => {
             </div>
           </div>
 
-          <button className="hover:bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors bg-orange-500">
+          <button className="hover:bg-gray-600 text-white px-8 py-2 rounded-lg font-semibold transition-colors bg-orange-500 text-lg">
             Заказать услугу
           </button>
         </div>
