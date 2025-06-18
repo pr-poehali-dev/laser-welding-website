@@ -68,7 +68,7 @@ const About = () => {
                 </div>
                 <div className="bg-gray-900 p-6 rounded-xl shadow-sm">
                   <div className="text-3xl font-bold text-gray-300 mb-2">
-                    24/7
+                    24/5
                   </div>
                   <div className="text-sm text-gray-400">Техподдержка</div>
                 </div>
