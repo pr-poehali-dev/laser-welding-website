@@ -43,13 +43,13 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="font-montserrat font-bold text-4xl text-gray-900 mb-4">
+          <h2 className="font-montserrat font-bold text-4xl text-white mb-4">
             Наши услуги
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Полный цикл лазерной обработки металла — от резки до финишной
             покраски
           </p>
@@ -59,36 +59,34 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-gray-900 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow border border-gray-700"
             >
-              <div className="bg-gradient-to-br from-orange-500 to-orange-600 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+              <div className="bg-gradient-to-br from-gray-600 to-gray-700 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
                 <Icon
                   name={service.icon as any}
                   className="h-8 w-8 text-white"
                 />
               </div>
 
-              <h3 className="font-montserrat font-bold text-xl text-gray-900 mb-4">
+              <h3 className="font-montserrat font-bold text-xl text-white mb-4">
                 {service.title}
               </h3>
 
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-300 mb-6 leading-relaxed">
                 {service.description}
               </p>
 
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-900 mb-3">
-                  Преимущества:
-                </h4>
+                <h4 className="font-semibold text-white mb-3">Преимущества:</h4>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li
                       key={idx}
-                      className="flex items-center text-sm text-gray-600"
+                      className="flex items-center text-sm text-gray-400"
                     >
                       <Icon
                         name="Check"
-                        className="h-4 w-4 text-green-500 mr-2 flex-shrink-0"
+                        className="h-4 w-4 text-gray-400 mr-2 flex-shrink-0"
                       />
                       {feature}
                     </li>
@@ -100,7 +98,7 @@ const Services = () => {
                 <span className="text-sm font-medium text-gray-500">
                   Применение:{" "}
                 </span>
-                <span className="text-sm text-gray-700">
+                <span className="text-sm text-gray-300">
                   {service.applications}
                 </span>
               </div>

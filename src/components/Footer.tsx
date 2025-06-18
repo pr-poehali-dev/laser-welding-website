@@ -2,7 +2,7 @@ import Icon from "@/components/ui/icon";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-white py-16">
+    <footer className="bg-black text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
@@ -21,19 +21,19 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="bg-gray-800 hover:bg-orange-500 p-3 rounded-lg transition-colors"
+                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-lg transition-colors"
               >
                 <Icon name="Phone" className="h-5 w-5" />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 hover:bg-orange-500 p-3 rounded-lg transition-colors"
+                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-lg transition-colors"
               >
                 <Icon name="Mail" className="h-5 w-5" />
               </a>
               <a
                 href="#"
-                className="bg-gray-800 hover:bg-orange-500 p-3 rounded-lg transition-colors"
+                className="bg-gray-800 hover:bg-gray-700 p-3 rounded-lg transition-colors"
               >
                 <Icon name="MapPin" className="h-5 w-5" />
               </a>
@@ -44,22 +44,22 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Услуги</h3>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="#" className="hover:text-gray-300 transition-colors">
                   Лазерная резка
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="#" className="hover:text-gray-300 transition-colors">
                   Лазерная сварка
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="#" className="hover:text-gray-300 transition-colors">
                   Порошковая покраска
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-orange-400 transition-colors">
+                <a href="#" className="hover:text-gray-300 transition-colors">
                   Консультации
                 </a>
               </li>
