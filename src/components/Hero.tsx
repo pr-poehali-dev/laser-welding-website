@@ -11,7 +11,7 @@ const Hero = () => {
           <div>
             <h1 className="font-montserrat font-bold text-5xl lg:text-6xl mb-6 leading-tight text-[#ffffff]">
               Лазерная обработка{" "}
-              <span className="bg-gradient-to-r from-gray-400 to-gray-300 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-gray-400 to-gray-300 bg-clip-text text-[#ffffff]">
                 металла
               </span>
             </h1>
