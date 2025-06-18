@@ -71,7 +71,7 @@ const Footer = () => {
             <ul className="space-y-3 text-gray-400">
               <li>+7 (495) 123-45-67</li>
               <li>info@prisma.ru</li>
-              <li>г. Москва, ул. Промышленная, 15</li>
+              <li>г. Кстово</li>
             </ul>
           </div>
         </div>
