@@ -21,7 +21,7 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <button className="hover:bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors bg-gray-600">
+              <button className="hover:bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors bg-red-600">
                 Рассчитать стоимость
               </button>
               <button className="border-2 border-gray-400 hover:border-gray-300 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
