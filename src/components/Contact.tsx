@@ -25,9 +25,7 @@ const Contact = () => {
                 />
                 <div>
                   <h4 className="font-semibold text-white mb-1">Адрес</h4>
-                  <p className="text-gray-300">
-                    г. Кстово, ул. хуй знает какая, дом 15
-                  </p>
+                  <p className="text-gray-300">г. Кстово</p>
                 </div>
               </div>
 
