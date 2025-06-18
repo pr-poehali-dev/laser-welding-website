@@ -7,10 +7,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-2">
             <div className="flex items-center mb-6">
-              <Icon name="Zap" className="h-8 w-8 text-orange-500 mr-2" />
-              <span className="font-montserrat font-bold text-xl">
-                LaserTech
-              </span>
+              <img
+                src="https://cdn.poehali.dev/files/5d86ddde-417e-494f-9b03-1f41c987ef8d.jpg"
+                alt="PRISMA Logo"
+                className="h-10 w-auto mr-3"
+              />
+              <span className="font-montserrat font-bold text-xl">PRISMA</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Профессиональная лазерная обработка металла. Качество, точность,

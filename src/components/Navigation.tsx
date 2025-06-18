@@ -6,9 +6,13 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <Icon name="Zap" className="h-8 w-8 text-orange-500 mr-2" />
+            <img
+              src="https://cdn.poehali.dev/files/5d86ddde-417e-494f-9b03-1f41c987ef8d.jpg"
+              alt="PRISMA Logo"
+              className="h-10 w-auto mr-3"
+            />
             <span className="font-montserrat font-bold text-xl text-gray-900">
-              LaserTech
+              PRISMA
             </span>
           </div>
 
