@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="font-montserrat font-bold text-5xl lg:text-6xl mb-6 leading-tight">
+            <h1 className="font-montserrat font-bold text-5xl lg:text-6xl mb-6 leading-tight text-[#ffffff]">
               Лазерная обработка{" "}
               <span className="bg-gradient-to-r from-gray-400 to-gray-300 bg-clip-text text-transparent">
                 металла
