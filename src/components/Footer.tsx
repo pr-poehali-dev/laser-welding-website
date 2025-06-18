@@ -70,7 +70,7 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-4">Контакты</h3>
             <ul className="space-y-3 text-gray-400">
               <li>+7 (495) 123-45-67</li>
-              <li>info@lasertech.ru</li>
+              <li>info@prisma.ru</li>
               <li>г. Москва, ул. Промышленная, 15</li>
             </ul>
           </div>
