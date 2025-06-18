@@ -48,7 +48,7 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-gradient-to-r from-gray-700/20 to-gray-600/20 rounded-3xl p-8 backdrop-blur-sm border border-gray-700">
               <div className="grid grid-cols-2 gap-6">
-                <div className="bg-gray-800/50 p-6 rounded-xl text-center">
+                <div className="p-6 rounded-xl text-center bg-transparent">
                   <Icon
                     name="Scissors"
                     className="h-12 w-12 text-gray-300 mx-auto mb-4"
@@ -58,7 +58,7 @@ const Hero = () => {
                     Профильные трубы до 4мм
                   </p>
                 </div>
-                <div className="bg-gray-800/50 p-6 rounded-xl text-center">
+                <div className="p-6 rounded-xl text-center bg-transparent">
                   <Icon
                     name="Flame"
                     className="h-12 w-12 text-gray-300 mx-auto mb-4"
@@ -66,7 +66,7 @@ const Hero = () => {
                   <h3 className="font-semibold mb-2">Лазерная сварка</h3>
                   <p className="text-sm text-gray-400">Черные металлы</p>
                 </div>
-                <div className="bg-gray-800/50 p-6 rounded-xl text-center col-span-2">
+                <div className="p-6 rounded-xl text-center col-span-2 bg-transparent">
                   <Icon
                     name="Palette"
                     className="h-12 w-12 text-gray-300 mx-auto mb-4"
