@@ -26,7 +26,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-white mb-1">Адрес</h4>
                   <p className="text-gray-300">
-                    г. Москва, ул. Промышленная, 15
+                    г. Кстово, ул. хуй знает какая, дом 15
                   </p>
                 </div>
               </div>
@@ -38,7 +38,7 @@ const Contact = () => {
                 />
                 <div>
                   <h4 className="font-semibold text-white mb-1">Телефон</h4>
-                  <p className="text-gray-300">+7 (495) 123-45-67</p>
+                  <p className="text-gray-300">+7 (000) 123-45-67</p>
                 </div>
               </div>
 
